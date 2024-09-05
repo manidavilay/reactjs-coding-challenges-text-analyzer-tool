@@ -1,6 +1,6 @@
 # ReactJS Challenges - Text Analyzer Tool
 
-This project is part of my ReactJS small projects challenges to help me build and improve skills in ReactJS, NextJS or TypeScript.
+This exercise has been built by Abdul Basit, and I worked on as part of my ReactJS Challenges, in order to learn, improve and build new skills.
 
 ## Available Scripts
 
