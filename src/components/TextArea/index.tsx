@@ -17,7 +17,7 @@ const TextArea = ({ setWordsCount, setCharactersCount, setSentencesCount, setPar
   const handleTextAreaChange = () => {
     const textValue = textAreaRef.current?.value || ""
 
-    const whiteSpaceRegex = " "
+    const whiteSpaceRegex = /\s+(?=\s*\S)/
     const characterRegex = ""
     const sentenceRegex = /[.?!]+(?=\s*\S)/
     const paragraphBreakRegex = /\r?\n+(?=\s*\S)/
